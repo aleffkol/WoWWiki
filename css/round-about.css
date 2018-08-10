@@ -1,0 +1,78 @@
+/*!
+ * Start Bootstrap - Round About (https://startbootstrap.com/template-overviews/round-about)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-round-about/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+.margem{
+	padding-top:%;
+}
+
+.view {
+  position: relative;
+  overflow: hidden;
+  cursor: default; }
+  .view .mask {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed; }
+
+.overlay .mask {
+  opacity: 0;
+  -webkit-transition: all 1.0s ease-in-out;
+  -o-transition: all 1.0s ease-in-out;
+  transition: all 0.5s ease-in-out; }
+  .overlay .mask:hover {
+    opacity: 5; }
+
+.hoverable {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: all 0.55s ease-in-out;
+  -o-transition: all 0.55s ease-in-out;
+  transition: all 0.55s ease-in-out; }
+  .hoverable:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 0.55s ease-in-out;
+    -o-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out; }
+
+.flex-center {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  padding-right:7.5%  }
+  .flex-center p {
+    margin: 0; }
+  .flex-center ul {
+    text-align: center; }
+    .flex-center ul li {
+      margin-bottom: 1rem; }
+      .flex-center ul li:last-of-type {
+        margin-bottom: 0; }
+
+.red-text {
+  color: black !important; }
